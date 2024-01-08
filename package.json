@@ -1,10 +1,28 @@
 {
   "scripts": {
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-interactions": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/react": "^7.6.7",
+    "@storybook/react-webpack5": "^7.6.7",
+    "@storybook/test": "^7.6.7",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.7",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "volta": {
+    "node": "20.10.0",
+    "yarn": "1.22.21"
   }
 }
